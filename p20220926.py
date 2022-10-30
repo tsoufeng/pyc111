@@ -1,4 +1,4 @@
-url = "https://www.nkust.edu.tw/p/403-1000-1363-{}.php?Lang=zh-tw"
-for pg in range(1, 51):
+url = "https://c111196116@nkust.edu.tw-{}.php?Lang=zh-tw"
+for pg in range(1, 5):
     u = url.format(pg)
     print(u)
